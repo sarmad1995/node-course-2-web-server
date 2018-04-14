@@ -1,0 +1,49 @@
+{
+    "name": "web-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "eslintConfig": {
+        "extends": "airbnb-base",
+        "env": {
+            "es6": true,
+            "browser": true
+        },
+        "rules": {
+            "brace-style": [
+                "error",
+                "1tbs"
+            ],
+            "comma-dangle": [
+                "error",
+                "never"
+            ],
+            "no-unused-vars": [
+                "warn"
+            ],
+            "no-var": [
+                "off"
+            ],
+            "one-var": [
+                "off"
+            ],
+            "no-console": [
+                "off"
+            ]
+        }
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3",
+        "hbs": "^4.0.1"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-plugin-import": "^2.11.0"
+    }
+}
